@@ -57,6 +57,7 @@ export default function SkeltonLoader() {
 // Spacer component to add space between the components
 export const Spacer = ({ height = 16 }) => <View style={{ height }} />;
 
+// Styles for the Skeleton Loader
 const styles = StyleSheet.create({
   container: {
     flex: 1,
