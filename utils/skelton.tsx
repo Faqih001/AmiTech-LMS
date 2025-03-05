@@ -8,6 +8,8 @@ import { scale } from "react-native-size-matters";
 
 // Skeleton Loader component
 export default function SkeltonLoader() {
+
+  // Theme Context to get the current theme
   let { theme } = useTheme();
 
   return (
