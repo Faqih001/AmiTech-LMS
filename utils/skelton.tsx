@@ -6,6 +6,7 @@ import { windowHeight, windowWidth } from "../themes/app.constant";
 import { useTheme } from "@/context/theme.context";
 import { scale } from "react-native-size-matters";
 
+// Skeleton Loader component
 export default function SkeltonLoader() {
   let { theme } = useTheme();
 
