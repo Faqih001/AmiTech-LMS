@@ -6,6 +6,7 @@ import { fontSizes } from "@/themes/app.constant";
 import { AntDesign } from "@expo/vector-icons";
 import { scale } from "react-native-size-matters";
 
+// 
 export default function _layout() {
   const { theme } = useTheme();
 
