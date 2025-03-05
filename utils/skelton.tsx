@@ -54,6 +54,7 @@ export default function SkeltonLoader() {
   );
 }
 
+// Spacer component to add space between the components
 export const Spacer = ({ height = 16 }) => <View style={{ height }} />;
 
 const styles = StyleSheet.create({
