@@ -12,6 +12,7 @@ export default function SkeltonLoader() {
   // Theme Context to get the current theme
   let { theme } = useTheme();
 
+  // Get the current color scheme of the device
   return (
     <MotiView
       transition={{
